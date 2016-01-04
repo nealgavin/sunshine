@@ -9,7 +9,7 @@
 #################################################################
 import multiprocessing
 
-class GlobalValue(object):
+class GlobalValueManage(object):
     """
     存放所有的全局变量
     """
@@ -43,9 +43,24 @@ class GlobalValue(object):
             self.val_dict[key] = value
             return 0
 
+    def add_attr(self, name, value):
+        """
+        增加名为name的属性
+        """
+        self.__setattr__(name, value)
+
+    def del_by_key(self, key):
+        """
+        去除全局变量管理中的一个key值
+        :param key: 索引字段
+        :param value: 对应的值
+        :return: 返回删除键对应的值
+        """
+        return self.val_dict.pop(key)
 
 if '__main__' == __name__:
-    tt = GlobalValue()
+    tt = GlobalValueManage()
     print tt.set('a', 'c')
     print tt.get('a')
     print tt.get('b')
+    print tt.del_by_key('help')

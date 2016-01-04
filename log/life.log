@@ -1,0 +1,158 @@
+INFO: 01-04 15:02:47: maintask.py:57 * 25019:140735138812672 init_task_context SUCC
+INFO: 01-04 15:46:08: maintask.py:61 * 25164:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 15:46:08: maintask.py:79 * 25164:140735138812672 init_task_context SUCC
+INFO: 01-04 16:02:58: maintask.py:61 * 25228:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 16:02:58: maintask.py:98 * 25228:140735138812672 init_task_context SUCC
+INFO: 01-04 17:02:35: maintask.py:61 * 25328:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 17:02:35: maintask.py:129 * 25328:140735138812672 init_task_context SUCC
+ERROR: 01-04 17:02:35: maintask.py:138 * 25328:140735138812672 Application terminate by exception: No section: 'process2'
+INFO: 01-04 17:03:53: maintask.py:61 * 25333:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 17:03:53: maintask.py:129 * 25333:140735138812672 init_task_context SUCC
+INFO: 01-04 17:03:53: maintask.py:135 * 25333:140735138812672 load_task_conf SUCC
+INFO: 01-04 18:07:47: maintask.py:61 * 25513:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 18:07:47: maintask.py:140 * 25513:140735138812672 init_task_context SUCC
+INFO: 01-04 18:07:47: maintask.py:146 * 25513:140735138812672 load_task_conf SUCC
+INFO: 01-04 18:07:47: maintask.py:154 * 25513:140735138812672 task finish
+ERROR: 01-04 18:07:47: maintask.py:156 * 25513:140735138812672 Application terminate by exception: global name 'IOManager' is not defined
+INFO: 01-04 18:08:42: maintask.py:62 * 25516:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 18:08:42: maintask.py:141 * 25516:140735138812672 init_task_context SUCC
+INFO: 01-04 18:08:42: maintask.py:147 * 25516:140735138812672 load_task_conf SUCC
+INFO: 01-04 18:08:42: maintask.py:153 * 25516:140735138812672 load_input_flows SUCC
+INFO: 01-04 18:08:42: maintask.py:155 * 25516:140735138812672 task finish
+INFO: 01-04 19:38:42: maintask.py:62 * 25679:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 19:38:42: maintask.py:156 * 25679:140735138812672 init_task_context SUCC
+INFO: 01-04 19:38:42: maintask.py:162 * 25679:140735138812672 load_task_conf SUCC
+INFO: 01-04 19:38:42: maintask.py:168 * 25679:140735138812672 load_input_flows SUCC
+INFO: 01-04 19:38:42: maintask.py:172 * 25679:140735138812672 get_dependency SUCC
+INFO: 01-04 19:38:42: maintask.py:175 * 25679:140735138812672 task finish
+INFO: 01-04 19:52:35: maintask.py:62 * 25711:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 19:52:35: maintask.py:185 * 25711:140735138812672 init_task_context SUCC
+INFO: 01-04 19:52:35: maintask.py:191 * 25711:140735138812672 load_task_conf SUCC
+INFO: 01-04 19:52:35: maintask.py:197 * 25711:140735138812672 load_input_flows SUCC
+INFO: 01-04 19:52:35: maintask.py:203 * 25711:140735138812672 get_dependency SUCC
+INFO: 01-04 19:52:35: maintask.py:226 * 25711:140735138812672 task finish
+INFO: 01-04 20:20:22: maintask.py:62 * 25800:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:20:22: maintask.py:203 * 25800:140735138812672 init_task_context SUCC
+INFO: 01-04 20:20:22: maintask.py:209 * 25800:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:20:22: maintask.py:215 * 25800:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:20:22: maintask.py:221 * 25800:140735138812672 get_dependency SUCC
+INFO: 01-04 20:20:22: maintask.py:244 * 25800:140735138812672 task finish
+ERROR: 01-04 20:20:22: maintask.py:246 * 25800:140735138812672 Application terminate by exception: No section: 'test_1'
+INFO: 01-04 20:21:41: maintask.py:62 * 25804:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:21:41: maintask.py:203 * 25804:140735138812672 init_task_context SUCC
+INFO: 01-04 20:21:41: maintask.py:209 * 25804:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:21:41: maintask.py:215 * 25804:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:21:41: maintask.py:221 * 25804:140735138812672 get_dependency SUCC
+INFO: 01-04 20:21:41: maintask.py:244 * 25804:140735138812672 task finish
+ERROR: 01-04 20:21:41: maintask.py:246 * 25804:140735138812672 Application terminate by exception: global name 'TaskInstance' is not defined
+INFO: 01-04 20:22:37: maintask.py:63 * 25806:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:22:37: maintask.py:204 * 25806:140735138812672 init_task_context SUCC
+INFO: 01-04 20:22:37: maintask.py:210 * 25806:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:22:37: maintask.py:216 * 25806:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:22:37: maintask.py:222 * 25806:140735138812672 get_dependency SUCC
+INFO: 01-04 20:22:37: maintask.py:245 * 25806:140735138812672 task finish
+ERROR: 01-04 20:22:37: maintask.py:247 * 25806:140735138812672 Application terminate by exception: 'TaskInstance' object has no attribute 'init_flag'
+INFO: 01-04 20:50:46: maintask.py:63 * 25852:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:50:46: maintask.py:204 * 25852:140735138812672 init_task_context SUCC
+INFO: 01-04 20:50:46: maintask.py:210 * 25852:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:50:46: maintask.py:216 * 25852:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:50:46: maintask.py:222 * 25852:140735138812672 get_dependency SUCC
+INFO: 01-04 20:50:46: maintask.py:245 * 25852:140735138812672 task finish
+ERROR: 01-04 20:50:46: maintask.py:247 * 25852:140735138812672 Application terminate by exception: No module named module.xxx
+INFO: 01-04 20:54:21: maintask.py:63 * 25896:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:54:21: maintask.py:204 * 25896:140735138812672 init_task_context SUCC
+INFO: 01-04 20:54:21: maintask.py:210 * 25896:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:54:21: maintask.py:216 * 25896:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:54:21: maintask.py:222 * 25896:140735138812672 get_dependency SUCC
+INFO: 01-04 20:54:21: maintask.py:245 * 25896:140735138812672 task finish
+ERROR: 01-04 20:54:21: maintask.py:247 * 25896:140735138812672 Application terminate by exception: No module named module.test.xxx
+INFO: 01-04 20:57:41: maintask.py:63 * 25903:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:57:41: maintask.py:204 * 25903:140735138812672 init_task_context SUCC
+INFO: 01-04 20:57:41: maintask.py:210 * 25903:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:57:41: maintask.py:216 * 25903:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:57:41: maintask.py:222 * 25903:140735138812672 get_dependency SUCC
+INFO: 01-04 20:57:41: maintask.py:245 * 25903:140735138812672 task finish
+ERROR: 01-04 20:57:41: maintask.py:247 * 25903:140735138812672 Application terminate by exception: No module named module.test.xxx
+INFO: 01-04 20:58:07: maintask.py:63 * 25904:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:58:07: maintask.py:204 * 25904:140735138812672 init_task_context SUCC
+INFO: 01-04 20:58:07: maintask.py:210 * 25904:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:58:07: maintask.py:216 * 25904:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:58:07: maintask.py:222 * 25904:140735138812672 get_dependency SUCC
+INFO: 01-04 20:58:07: maintask.py:245 * 25904:140735138812672 task finish
+ERROR: 01-04 20:58:07: maintask.py:247 * 25904:140735138812672 Application terminate by exception: No module named module.test.xxx
+INFO: 01-04 20:58:18: maintask.py:63 * 25906:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:58:18: maintask.py:204 * 25906:140735138812672 init_task_context SUCC
+INFO: 01-04 20:58:18: maintask.py:210 * 25906:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:58:18: maintask.py:216 * 25906:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:58:18: maintask.py:222 * 25906:140735138812672 get_dependency SUCC
+INFO: 01-04 20:58:18: maintask.py:245 * 25906:140735138812672 task finish
+ERROR: 01-04 20:58:18: maintask.py:247 * 25906:140735138812672 Application terminate by exception: No module named module.test.xxx
+INFO: 01-04 20:59:00: maintask.py:63 * 25910:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:59:00: maintask.py:204 * 25910:140735138812672 init_task_context SUCC
+INFO: 01-04 20:59:00: maintask.py:210 * 25910:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:59:00: maintask.py:216 * 25910:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:59:00: maintask.py:222 * 25910:140735138812672 get_dependency SUCC
+INFO: 01-04 20:59:00: maintask.py:245 * 25910:140735138812672 task finish
+ERROR: 01-04 20:59:00: maintask.py:247 * 25910:140735138812672 Application terminate by exception: No module named module.test.xxx
+INFO: 01-04 20:59:10: maintask.py:63 * 25911:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:59:10: maintask.py:204 * 25911:140735138812672 init_task_context SUCC
+INFO: 01-04 20:59:10: maintask.py:210 * 25911:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:59:10: maintask.py:216 * 25911:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:59:10: maintask.py:222 * 25911:140735138812672 get_dependency SUCC
+INFO: 01-04 20:59:10: maintask.py:245 * 25911:140735138812672 task finish
+ERROR: 01-04 20:59:10: maintask.py:247 * 25911:140735138812672 Application terminate by exception: No module named module.test.xxx
+INFO: 01-04 20:59:52: maintask.py:63 * 25913:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 20:59:52: maintask.py:204 * 25913:140735138812672 init_task_context SUCC
+INFO: 01-04 20:59:52: maintask.py:210 * 25913:140735138812672 load_task_conf SUCC
+INFO: 01-04 20:59:52: maintask.py:216 * 25913:140735138812672 load_input_flows SUCC
+INFO: 01-04 20:59:52: maintask.py:222 * 25913:140735138812672 get_dependency SUCC
+INFO: 01-04 20:59:52: maintask.py:245 * 25913:140735138812672 task finish
+ERROR: 01-04 20:59:52: maintask.py:247 * 25913:140735138812672 Application terminate by exception: No module named module.test.xxx
+INFO: 01-04 21:00:02: maintask.py:63 * 25914:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 21:00:02: maintask.py:204 * 25914:140735138812672 init_task_context SUCC
+INFO: 01-04 21:00:02: maintask.py:210 * 25914:140735138812672 load_task_conf SUCC
+INFO: 01-04 21:00:02: maintask.py:216 * 25914:140735138812672 load_input_flows SUCC
+INFO: 01-04 21:00:02: maintask.py:222 * 25914:140735138812672 get_dependency SUCC
+INFO: 01-04 21:00:02: maintask.py:245 * 25914:140735138812672 task finish
+ERROR: 01-04 21:00:02: maintask.py:247 * 25914:140735138812672 Application terminate by exception: No module named module.test.xxx
+INFO: 01-04 21:02:56: maintask.py:63 * 25991:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 21:02:56: maintask.py:204 * 25991:140735138812672 init_task_context SUCC
+INFO: 01-04 21:02:56: maintask.py:210 * 25991:140735138812672 load_task_conf SUCC
+INFO: 01-04 21:02:56: maintask.py:216 * 25991:140735138812672 load_input_flows SUCC
+INFO: 01-04 21:02:56: maintask.py:222 * 25991:140735138812672 get_dependency SUCC
+INFO: 01-04 21:02:56: maintask.py:245 * 25991:140735138812672 task finish
+ERROR: 01-04 21:02:56: maintask.py:247 * 25991:140735138812672 Application terminate by exception: __init__() takes exactly 1 argument (4 given)
+INFO: 01-04 21:03:19: maintask.py:63 * 25993:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 21:03:19: maintask.py:204 * 25993:140735138812672 init_task_context SUCC
+INFO: 01-04 21:03:19: maintask.py:210 * 25993:140735138812672 load_task_conf SUCC
+INFO: 01-04 21:03:19: maintask.py:216 * 25993:140735138812672 load_input_flows SUCC
+INFO: 01-04 21:03:19: maintask.py:222 * 25993:140735138812672 get_dependency SUCC
+INFO: 01-04 21:03:19: maintask.py:245 * 25993:140735138812672 task finish
+ERROR: 01-04 21:03:19: maintask.py:247 * 25993:140735138812672 Application terminate by exception: __init__() takes exactly 1 argument (4 given)
+INFO: 01-04 21:04:54: maintask.py:63 * 26025:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 21:04:54: maintask.py:204 * 26025:140735138812672 init_task_context SUCC
+INFO: 01-04 21:04:54: maintask.py:210 * 26025:140735138812672 load_task_conf SUCC
+INFO: 01-04 21:04:54: maintask.py:216 * 26025:140735138812672 load_input_flows SUCC
+INFO: 01-04 21:04:54: maintask.py:222 * 26025:140735138812672 get_dependency SUCC
+INFO: 01-04 21:04:54: maintask.py:245 * 26025:140735138812672 task finish
+ERROR: 01-04 21:04:54: maintask.py:247 * 26025:140735138812672 Application terminate by exception: 'xxx' object has no attribute 'init'
+INFO: 01-04 21:05:18: maintask.py:63 * 26026:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 21:05:18: maintask.py:204 * 26026:140735138812672 init_task_context SUCC
+INFO: 01-04 21:05:18: maintask.py:210 * 26026:140735138812672 load_task_conf SUCC
+INFO: 01-04 21:05:18: maintask.py:216 * 26026:140735138812672 load_input_flows SUCC
+INFO: 01-04 21:05:18: maintask.py:222 * 26026:140735138812672 get_dependency SUCC
+INFO: 01-04 21:05:18: maintask.py:245 * 26026:140735138812672 task finish
+ERROR: 01-04 21:05:18: maintask.py:247 * 26026:140735138812672 Application terminate by exception: init() takes no arguments (1 given)
+INFO: 01-04 21:05:31: maintask.py:63 * 26027:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 21:05:31: maintask.py:204 * 26027:140735138812672 init_task_context SUCC
+INFO: 01-04 21:05:31: maintask.py:210 * 26027:140735138812672 load_task_conf SUCC
+INFO: 01-04 21:05:31: maintask.py:216 * 26027:140735138812672 load_input_flows SUCC
+INFO: 01-04 21:05:31: maintask.py:222 * 26027:140735138812672 get_dependency SUCC
+INFO: 01-04 21:05:31: maintask.py:245 * 26027:140735138812672 task finish
+ERROR: 01-04 21:05:31: maintask.py:247 * 26027:140735138812672 Application terminate by exception: No section: 'test2'
+INFO: 01-04 21:06:05: maintask.py:63 * 26029:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-04 21:06:05: maintask.py:204 * 26029:140735138812672 init_task_context SUCC
+INFO: 01-04 21:06:05: maintask.py:210 * 26029:140735138812672 load_task_conf SUCC
+INFO: 01-04 21:06:05: maintask.py:216 * 26029:140735138812672 load_input_flows SUCC
+INFO: 01-04 21:06:05: maintask.py:222 * 26029:140735138812672 get_dependency SUCC
+INFO: 01-04 21:06:05: maintask.py:245 * 26029:140735138812672 task finish

@@ -1,0 +1,19 @@
+ERROR: 01-04 17:02:35: maintask.py:138 * 25328:140735138812672 Application terminate by exception: No section: 'process2'
+ERROR: 01-04 18:07:47: maintask.py:156 * 25513:140735138812672 Application terminate by exception: global name 'IOManager' is not defined
+ERROR: 01-04 20:20:22: maintask.py:246 * 25800:140735138812672 Application terminate by exception: No section: 'test_1'
+ERROR: 01-04 20:21:41: maintask.py:246 * 25804:140735138812672 Application terminate by exception: global name 'TaskInstance' is not defined
+ERROR: 01-04 20:22:37: maintask.py:247 * 25806:140735138812672 Application terminate by exception: 'TaskInstance' object has no attribute 'init_flag'
+ERROR: 01-04 20:50:46: maintask.py:247 * 25852:140735138812672 Application terminate by exception: No module named module.xxx
+ERROR: 01-04 20:54:21: maintask.py:247 * 25896:140735138812672 Application terminate by exception: No module named module.test.xxx
+ERROR: 01-04 20:57:41: maintask.py:247 * 25903:140735138812672 Application terminate by exception: No module named module.test.xxx
+ERROR: 01-04 20:58:07: maintask.py:247 * 25904:140735138812672 Application terminate by exception: No module named module.test.xxx
+ERROR: 01-04 20:58:18: maintask.py:247 * 25906:140735138812672 Application terminate by exception: No module named module.test.xxx
+ERROR: 01-04 20:59:00: maintask.py:247 * 25910:140735138812672 Application terminate by exception: No module named module.test.xxx
+ERROR: 01-04 20:59:10: maintask.py:247 * 25911:140735138812672 Application terminate by exception: No module named module.test.xxx
+ERROR: 01-04 20:59:52: maintask.py:247 * 25913:140735138812672 Application terminate by exception: No module named module.test.xxx
+ERROR: 01-04 21:00:02: maintask.py:247 * 25914:140735138812672 Application terminate by exception: No module named module.test.xxx
+ERROR: 01-04 21:02:56: maintask.py:247 * 25991:140735138812672 Application terminate by exception: __init__() takes exactly 1 argument (4 given)
+ERROR: 01-04 21:03:19: maintask.py:247 * 25993:140735138812672 Application terminate by exception: __init__() takes exactly 1 argument (4 given)
+ERROR: 01-04 21:04:54: maintask.py:247 * 26025:140735138812672 Application terminate by exception: 'xxx' object has no attribute 'init'
+ERROR: 01-04 21:05:18: maintask.py:247 * 26026:140735138812672 Application terminate by exception: init() takes no arguments (1 given)
+ERROR: 01-04 21:05:31: maintask.py:247 * 26027:140735138812672 Application terminate by exception: No section: 'test2'
