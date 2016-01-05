@@ -28,6 +28,8 @@ def load_config(conf_path):
 def init_task_context(global_val_manager, conf, debug):
     """
     初始化任务上下文环境
+    1.注册日志
+    2.获取数据库想关配置
     """
     #日志名获取
     try:
@@ -67,6 +69,7 @@ def init_task_context(global_val_manager, conf, debug):
 def load_task_conf(global_val_manager):
     """
     加载任务信息
+    解析多路配置
     """
     conf = global_val_manager.conf
     task_info_conf = conf.options('task_info')
@@ -95,9 +98,11 @@ def load_process_conf(global_val_manager, multi_item, section_name):
     #多路的下一层的流
     process_list = conf.get_conf_list(section_name, "process_list")
     input_flows = conf.get_conf_list(section_name, "input_flows")
+    input_flows_str = conf.get(section_name, "input_flows")
     
     process_info_list["process_list"] = process_list
     process_info_list["input_flows"] = input_flows
+    process_info_list["input_file_list"] = input_flows_str
     
     #保存多路的关系
     global_val_manager.multi_way_dict[multi_item] = process_info_list
@@ -122,6 +127,33 @@ def load_input_flows(global_val_manager):
 
     io_manager =  IOManager.IOManager(global_val_manager)
     global_val_manager.add_attr("io_manager", io_manager)
+
+    multi_way_dict = global_val_manager.multi_way_dict
+    for process_list_name, process_info_list in multi_way_dict.iteritems():
+        input_file_list = process_info_list["input_file_list"]
+        process_list = process_info_list["process_list"]
+        first_process = process_list[0]
+
+        conf.set(first_process, "input_flows", process_info_list["input_flows"])
+
+        if conf.has_option(first_process, "input"):
+            first_process_input = conf.get(first_process, "input")
+            conf.set(first_process, "input", input_file_list + ',' + first_process_input)
+        else:
+            conf.set(first_process, "input", input_file_list)
+
+    #将io_conf的数据导入到主conf中
+    
+    #注册所有的io
+#   multi_way_dict = global_val_manager.multi_way_dict
+#   for (muti_name, process_info_list) in multi_way_dict.iteritems():
+#       for input_name in process_info_list["input_flows"]:
+#           now_section = conf.get_section_dict(input_name) 
+#           db_source = now_section.get("db_source")
+#           #print global_val_manager.io_conf
+#           #print db_source
+#           now_section.update(global_val_manager.io_conf.get(db_source, {}))
+#           io_manager.register(input_name, now_section)
     return 0
     
 def get_dependency(global_val_manager):
@@ -163,9 +195,9 @@ def init_process_circuit(global_val_manager):
         process_flows = list()
         process_items = process_info_list['process_list']
         for item in process_items:
+            #创建执行实例
             item = item.strip()
             conf_item = conf.get_section_dict(item)
-
             data_task = TaskInstance.TaskInstance(conf_item, global_val_manager)
             if not data_task.init_flag:
                 log.error("init process circuit failed, return")
@@ -179,7 +211,15 @@ def running_task(global_val_manager):
     """
     执行任务
     """
-    pass
+    final_sequence = global_val_manager.final_sequence
+    multi_way_dict = global_val_manager.multi_way_dict
+    for process_list_name in final_sequence:
+        print "running_process_list:" + process_list_name
+        input_data = None
+        for process_item in multi_way_dict[process_list_name]["process_flows"]:
+            input_data = process_item.run(input_data)
+    
+    return 0
 
 def finish_task(global_val_manager):
     """
@@ -193,6 +233,7 @@ def main(conf_path, debug = False):
     conf_path:配置文件路
     """
     try:
+        #导入初始运行任务的配置
         conf = load_config(conf_path)
         #初始化全局变量环境
         global_val_manager = GlobalValue.GlobalValueManage()

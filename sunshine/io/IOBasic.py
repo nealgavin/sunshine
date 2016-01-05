@@ -17,7 +17,7 @@ class IOBasic(object):
     __meta__ = abc.ABCMeta
 
     @abc.abstractmethod
-    def __init__(self):
+    def __init__(self, conf):
         """
         函数功能：
         """
@@ -32,6 +32,12 @@ class IOBasic(object):
     def finish(self):
         """
         释放数据
+        """
+        pass
+    
+    def process(self):
+        """
+        数据处理流程
         """
         pass
 

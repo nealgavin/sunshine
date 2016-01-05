@@ -25,3 +25,16 @@ class xxx(object):
         """
         print "init"
     
+    def process(self, data):
+        """
+        主处理流程
+        """
+        print data, "task data"
+
+        return data
+
+    def data_landed(self, data):
+        """
+        data_landed
+        """
+        pass

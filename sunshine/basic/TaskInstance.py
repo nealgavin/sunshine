@@ -31,6 +31,7 @@ class TaskInstance(object):
         self.name = conf["section_name"]
         class_name = conf["class_name"]
         self.input_flows = conf.get("input_flows", [])
+        print conf ,"mygod"
 
         #实例化相关处理类
         task_info = global_val_manager.conf.get_section_dict("task_info")
@@ -59,7 +60,7 @@ class TaskInstance(object):
             for item in items:
                 input_name = item.strip()
                 if input_name != "":
-                    input_conf = self.global_val_manager.get_section_dict(input_name)
+                    input_conf = self.global_val_manager.conf.get_section_dict(input_name)
                     if not input_name in self.io_manager.io_manager_dict:
                         register_result = self.io_manager.register(input_name, input_conf)
 
@@ -74,12 +75,75 @@ class TaskInstance(object):
 
         self.instance = process_instance                
         self.init_flag = True
+
+    def run(self, data=None):
+        """
+        函数功能：运行具体任务的逻辑
+        """
+        self.run_task(data)
+    
+    def run_task(self, data):
+        """
+        一个task处理的真正执行函数
+        stream_data: 上游数据，或是input_flows的数据
+        一个处理过程的真正执行函数
+        stream_data: 上游的数据，或者input_slot中的数据, 流式任务中就是Dstream中的rdd
+        external_data: input中，且非input_slot中的db
+        """
+        print ("%s start running") % (self.name)
+
+        if data is None:
+            data = []
+        elif not isinstance(data, list):
+            data = [data]
         
+        #加入输入流数据
+        data.extend(self.input_flows)
+        #获取输入数据
+        stream_data = self.get_data_list(data)
+        print "stream_data", stream_data
+        external_data = self.get_data_list(self.external_data)
+
+        #将多个输入源归并到一个输入
+        data = []
+        for elems in stream_data:
+            if isinstance(elems, list):
+                for elem in elems:
+                    data.append(elem)
+            else:
+                data.append(elem)
+
+        for elems in external_data:
+            if isinstance(elems, list):
+                for elem in elems:
+                    data.append(elem)
+            else:
+                data.append(elem)
+                
+
+        # 执行任务
+        result = self.instance.process(data)
+        # 数据落地
+        self.instance.data_landed(result)
+        
+        print ("%s running finish " % self.name)
+        print data, "gavin input_ist"
+
+        return result
+       
     def get_data_list(self, input_list):
         """
-        get data
+        取列表中指定的数据源
         """
         data = []
+        for input_name in input_list:
+            #是stream_data, 输入源数据
+            if isinstance(input_name, basestring):
+                io_instance = self.io_manager.get_input_source(input_name)
+            else:
+                io_instance = input_name
+            data.append(io_instance)    
+        print data, "instance get_data_list"
         return  data
 
 

@@ -156,3 +156,490 @@ INFO: 01-04 21:06:05: maintask.py:210 * 26029:140735138812672 load_task_conf SUC
 INFO: 01-04 21:06:05: maintask.py:216 * 26029:140735138812672 load_input_flows SUCC
 INFO: 01-04 21:06:05: maintask.py:222 * 26029:140735138812672 get_dependency SUCC
 INFO: 01-04 21:06:05: maintask.py:245 * 26029:140735138812672 task finish
+INFO: 01-05 11:10:22: maintask.py:63 * 26505:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 11:10:22: maintask.py:204 * 26505:140735138812672 init_task_context SUCC
+INFO: 01-05 11:10:22: maintask.py:210 * 26505:140735138812672 load_task_conf SUCC
+INFO: 01-05 11:10:22: maintask.py:216 * 26505:140735138812672 load_input_flows SUCC
+INFO: 01-05 11:10:22: maintask.py:222 * 26505:140735138812672 get_dependency SUCC
+INFO: 01-05 11:10:22: maintask.py:245 * 26505:140735138812672 task finish
+INFO: 01-05 12:35:04: maintask.py:63 * 26704:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 12:35:04: maintask.py:212 * 26704:140735138812672 init_task_context SUCC
+INFO: 01-05 12:35:04: maintask.py:218 * 26704:140735138812672 load_task_conf SUCC
+INFO: 01-05 12:35:04: maintask.py:224 * 26704:140735138812672 load_input_flows SUCC
+INFO: 01-05 12:35:04: maintask.py:230 * 26704:140735138812672 get_dependency SUCC
+INFO: 01-05 12:35:04: maintask.py:253 * 26704:140735138812672 task finish
+ERROR: 01-05 12:35:04: maintask.py:255 * 26704:140735138812672 Application terminate by exception: run_task() takes exactly 1 argument (2 given)
+INFO: 01-05 12:35:26: maintask.py:63 * 26705:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 12:35:26: maintask.py:212 * 26705:140735138812672 init_task_context SUCC
+INFO: 01-05 12:35:26: maintask.py:218 * 26705:140735138812672 load_task_conf SUCC
+INFO: 01-05 12:35:26: maintask.py:224 * 26705:140735138812672 load_input_flows SUCC
+INFO: 01-05 12:35:26: maintask.py:230 * 26705:140735138812672 get_dependency SUCC
+INFO: 01-05 12:35:26: maintask.py:253 * 26705:140735138812672 task finish
+INFO: 01-05 14:43:45: maintask.py:65 * 26874:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 14:43:45: maintask.py:216 * 26874:140735138812672 init_task_context SUCC
+INFO: 01-05 14:43:45: maintask.py:222 * 26874:140735138812672 load_task_conf SUCC
+INFO: 01-05 14:43:45: maintask.py:228 * 26874:140735138812672 load_input_flows SUCC
+INFO: 01-05 14:43:45: maintask.py:234 * 26874:140735138812672 get_dependency SUCC
+INFO: 01-05 14:43:45: maintask.py:257 * 26874:140735138812672 task finish
+INFO: 01-05 16:24:50: maintask.py:65 * 27236:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:24:50: maintask.py:216 * 27236:140735138812672 init_task_context SUCC
+INFO: 01-05 16:24:50: maintask.py:222 * 27236:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:24:50: maintask.py:228 * 27236:140735138812672 load_input_flows SUCC
+INFO: 01-05 16:24:50: maintask.py:234 * 27236:140735138812672 get_dependency SUCC
+INFO: 01-05 16:24:50: maintask.py:257 * 27236:140735138812672 task finish
+INFO: 01-05 16:36:04: maintask.py:65 * 27258:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:36:04: maintask.py:222 * 27258:140735138812672 init_task_context SUCC
+INFO: 01-05 16:36:04: maintask.py:228 * 27258:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:36:04: maintask.py:263 * 27258:140735138812672 task finish
+ERROR: 01-05 16:36:04: maintask.py:265 * 27258:140735138812672 Application terminate by exception: No section: 'input1'
+INFO: 01-05 16:38:39: maintask.py:65 * 27264:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:38:39: maintask.py:222 * 27264:140735138812672 init_task_context SUCC
+INFO: 01-05 16:38:39: maintask.py:228 * 27264:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:38:39: maintask.py:263 * 27264:140735138812672 task finish
+ERROR: 01-05 16:38:39: maintask.py:265 * 27264:140735138812672 Application terminate by exception: 'list' object has no attribute 'get'
+INFO: 01-05 16:43:51: maintask.py:65 * 27301:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:43:51: maintask.py:222 * 27301:140735138812672 init_task_context SUCC
+INFO: 01-05 16:43:51: maintask.py:228 * 27301:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:43:51: maintask.py:263 * 27301:140735138812672 task finish
+ERROR: 01-05 16:43:51: maintask.py:265 * 27301:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+INFO: 01-05 16:45:38: maintask.py:65 * 27304:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:45:38: maintask.py:222 * 27304:140735138812672 init_task_context SUCC
+INFO: 01-05 16:45:38: maintask.py:228 * 27304:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:45:38: maintask.py:263 * 27304:140735138812672 task finish
+ERROR: 01-05 16:45:38: maintask.py:265 * 27304:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+INFO: 01-05 16:46:29: maintask.py:65 * 27311:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:46:29: maintask.py:222 * 27311:140735138812672 init_task_context SUCC
+INFO: 01-05 16:46:29: maintask.py:228 * 27311:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:46:29: maintask.py:263 * 27311:140735138812672 task finish
+ERROR: 01-05 16:46:29: maintask.py:265 * 27311:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+INFO: 01-05 16:46:45: maintask.py:65 * 27313:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:46:45: maintask.py:222 * 27313:140735138812672 init_task_context SUCC
+INFO: 01-05 16:46:45: maintask.py:228 * 27313:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:46:45: maintask.py:263 * 27313:140735138812672 task finish
+ERROR: 01-05 16:46:45: maintask.py:265 * 27313:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+INFO: 01-05 16:47:14: maintask.py:65 * 27315:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:47:14: maintask.py:222 * 27315:140735138812672 init_task_context SUCC
+INFO: 01-05 16:47:14: maintask.py:228 * 27315:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:47:14: maintask.py:263 * 27315:140735138812672 task finish
+ERROR: 01-05 16:47:14: maintask.py:265 * 27315:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+INFO: 01-05 16:47:37: maintask.py:65 * 27316:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:47:37: maintask.py:222 * 27316:140735138812672 init_task_context SUCC
+INFO: 01-05 16:47:37: maintask.py:228 * 27316:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:47:37: maintask.py:263 * 27316:140735138812672 task finish
+ERROR: 01-05 16:47:37: maintask.py:265 * 27316:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+INFO: 01-05 16:48:00: maintask.py:65 * 27318:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:48:00: maintask.py:222 * 27318:140735138812672 init_task_context SUCC
+INFO: 01-05 16:48:00: maintask.py:228 * 27318:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:48:00: maintask.py:263 * 27318:140735138812672 task finish
+ERROR: 01-05 16:48:00: maintask.py:265 * 27318:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+INFO: 01-05 16:49:51: maintask.py:65 * 27321:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:49:51: maintask.py:222 * 27321:140735138812672 init_task_context SUCC
+INFO: 01-05 16:49:51: maintask.py:228 * 27321:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:49:51: maintask.py:263 * 27321:140735138812672 task finish
+ERROR: 01-05 16:49:51: maintask.py:265 * 27321:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+INFO: 01-05 16:50:48: maintask.py:65 * 27322:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:50:48: maintask.py:222 * 27322:140735138812672 init_task_context SUCC
+INFO: 01-05 16:50:48: maintask.py:228 * 27322:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:50:48: maintask.py:263 * 27322:140735138812672 task finish
+ERROR: 01-05 16:50:48: maintask.py:265 * 27322:140735138812672 Application terminate by exception: No module named module.io.IOMongoDBNormal
+INFO: 01-05 16:51:26: maintask.py:65 * 27356:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:51:26: maintask.py:222 * 27356:140735138812672 init_task_context SUCC
+INFO: 01-05 16:51:26: maintask.py:228 * 27356:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:51:26: maintask.py:263 * 27356:140735138812672 task finish
+ERROR: 01-05 16:51:26: maintask.py:265 * 27356:140735138812672 Application terminate by exception: No module named module.io.IOMongoDBNormal
+INFO: 01-05 16:51:39: maintask.py:65 * 27357:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:51:39: maintask.py:222 * 27357:140735138812672 init_task_context SUCC
+INFO: 01-05 16:51:39: maintask.py:228 * 27357:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:51:39: maintask.py:263 * 27357:140735138812672 task finish
+ERROR: 01-05 16:51:39: maintask.py:265 * 27357:140735138812672 Application terminate by exception: 'db_uri'
+INFO: 01-05 16:51:51: maintask.py:65 * 27358:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:51:51: maintask.py:222 * 27358:140735138812672 init_task_context SUCC
+INFO: 01-05 16:51:51: maintask.py:228 * 27358:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:51:51: maintask.py:263 * 27358:140735138812672 task finish
+ERROR: 01-05 16:51:51: maintask.py:265 * 27358:140735138812672 Application terminate by exception: 'db_uri'
+INFO: 01-05 16:53:24: maintask.py:65 * 27391:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:53:24: maintask.py:222 * 27391:140735138812672 init_task_context SUCC
+INFO: 01-05 16:53:24: maintask.py:228 * 27391:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:53:24: maintask.py:263 * 27391:140735138812672 task finish
+ERROR: 01-05 16:53:24: maintask.py:265 * 27391:140735138812672 Application terminate by exception: 'db_uri'
+INFO: 01-05 16:54:09: maintask.py:65 * 27392:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 16:54:09: maintask.py:222 * 27392:140735138812672 init_task_context SUCC
+INFO: 01-05 16:54:09: maintask.py:228 * 27392:140735138812672 load_task_conf SUCC
+INFO: 01-05 16:54:09: maintask.py:263 * 27392:140735138812672 task finish
+ERROR: 01-05 16:54:09: maintask.py:265 * 27392:140735138812672 Application terminate by exception: 'db_uri'
+INFO: 01-05 17:27:38: maintask.py:65 * 27456:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:27:38: maintask.py:227 * 27456:140735138812672 init_task_context SUCC
+INFO: 01-05 17:27:38: maintask.py:233 * 27456:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:27:38: maintask.py:268 * 27456:140735138812672 task finish
+ERROR: 01-05 17:27:38: maintask.py:270 * 27456:140735138812672 Application terminate by exception: 'db_uri'
+INFO: 01-05 17:28:31: maintask.py:65 * 27459:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:28:31: maintask.py:228 * 27459:140735138812672 init_task_context SUCC
+INFO: 01-05 17:28:31: maintask.py:234 * 27459:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:28:31: maintask.py:269 * 27459:140735138812672 task finish
+ERROR: 01-05 17:28:31: maintask.py:271 * 27459:140735138812672 Application terminate by exception: 'db_uri'
+INFO: 01-05 17:28:57: maintask.py:65 * 27460:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:28:57: maintask.py:229 * 27460:140735138812672 init_task_context SUCC
+INFO: 01-05 17:28:57: maintask.py:235 * 27460:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:28:57: maintask.py:270 * 27460:140735138812672 task finish
+ERROR: 01-05 17:28:57: maintask.py:272 * 27460:140735138812672 Application terminate by exception: 'db_uri'
+INFO: 01-05 17:29:18: maintask.py:65 * 27462:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:29:18: maintask.py:229 * 27462:140735138812672 init_task_context SUCC
+INFO: 01-05 17:29:18: maintask.py:235 * 27462:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:29:18: maintask.py:241 * 27462:140735138812672 load_input_flows SUCC
+INFO: 01-05 17:29:18: maintask.py:247 * 27462:140735138812672 get_dependency SUCC
+INFO: 01-05 17:29:18: maintask.py:270 * 27462:140735138812672 task finish
+INFO: 01-05 17:33:52: maintask.py:65 * 27611:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:33:52: maintask.py:229 * 27611:140735138812672 init_task_context SUCC
+INFO: 01-05 17:33:52: maintask.py:235 * 27611:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:33:52: maintask.py:241 * 27611:140735138812672 load_input_flows SUCC
+INFO: 01-05 17:33:52: maintask.py:247 * 27611:140735138812672 get_dependency SUCC
+INFO: 01-05 17:33:52: maintask.py:270 * 27611:140735138812672 task finish
+INFO: 01-05 17:35:06: maintask.py:65 * 27613:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:35:06: maintask.py:229 * 27613:140735138812672 init_task_context SUCC
+INFO: 01-05 17:35:06: maintask.py:235 * 27613:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:35:06: maintask.py:241 * 27613:140735138812672 load_input_flows SUCC
+INFO: 01-05 17:35:06: maintask.py:247 * 27613:140735138812672 get_dependency SUCC
+INFO: 01-05 17:35:06: maintask.py:270 * 27613:140735138812672 task finish
+INFO: 01-05 17:37:29: maintask.py:65 * 27621:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:37:29: maintask.py:229 * 27621:140735138812672 init_task_context SUCC
+INFO: 01-05 17:37:29: maintask.py:235 * 27621:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:37:29: maintask.py:241 * 27621:140735138812672 load_input_flows SUCC
+INFO: 01-05 17:37:29: maintask.py:247 * 27621:140735138812672 get_dependency SUCC
+INFO: 01-05 17:37:29: maintask.py:270 * 27621:140735138812672 task finish
+INFO: 01-05 17:38:13: maintask.py:65 * 27623:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:38:13: maintask.py:229 * 27623:140735138812672 init_task_context SUCC
+INFO: 01-05 17:38:13: maintask.py:235 * 27623:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:38:13: maintask.py:241 * 27623:140735138812672 load_input_flows SUCC
+INFO: 01-05 17:38:13: maintask.py:247 * 27623:140735138812672 get_dependency SUCC
+INFO: 01-05 17:38:13: maintask.py:270 * 27623:140735138812672 task finish
+INFO: 01-05 17:39:20: maintask.py:65 * 27626:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:39:20: maintask.py:229 * 27626:140735138812672 init_task_context SUCC
+INFO: 01-05 17:39:20: maintask.py:235 * 27626:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:39:20: maintask.py:241 * 27626:140735138812672 load_input_flows SUCC
+INFO: 01-05 17:39:20: maintask.py:247 * 27626:140735138812672 get_dependency SUCC
+INFO: 01-05 17:39:20: maintask.py:270 * 27626:140735138812672 task finish
+INFO: 01-05 17:39:47: maintask.py:65 * 27627:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:39:47: maintask.py:229 * 27627:140735138812672 init_task_context SUCC
+INFO: 01-05 17:39:47: maintask.py:235 * 27627:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:39:47: maintask.py:270 * 27627:140735138812672 task finish
+ERROR: 01-05 17:39:47: maintask.py:272 * 27627:140735138812672 Application terminate by exception: global name 'query' is not defined
+INFO: 01-05 17:41:19: maintask.py:65 * 27632:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:41:19: maintask.py:229 * 27632:140735138812672 init_task_context SUCC
+INFO: 01-05 17:41:19: maintask.py:235 * 27632:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:41:19: maintask.py:270 * 27632:140735138812672 task finish
+ERROR: 01-05 17:41:19: maintask.py:272 * 27632:140735138812672 Application terminate by exception: global name 'conn' is not defined
+INFO: 01-05 17:42:51: maintask.py:65 * 27634:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:42:51: maintask.py:229 * 27634:140735138812672 init_task_context SUCC
+INFO: 01-05 17:42:51: maintask.py:235 * 27634:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:42:51: maintask.py:270 * 27634:140735138812672 task finish
+ERROR: 01-05 17:42:51: maintask.py:272 * 27634:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:43:31: maintask.py:65 * 27637:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:43:31: maintask.py:229 * 27637:140735138812672 init_task_context SUCC
+INFO: 01-05 17:43:31: maintask.py:235 * 27637:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:43:31: maintask.py:270 * 27637:140735138812672 task finish
+ERROR: 01-05 17:43:31: maintask.py:272 * 27637:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:43:52: maintask.py:65 * 27638:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:43:52: maintask.py:229 * 27638:140735138812672 init_task_context SUCC
+INFO: 01-05 17:43:52: maintask.py:235 * 27638:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:43:52: maintask.py:270 * 27638:140735138812672 task finish
+ERROR: 01-05 17:43:52: maintask.py:272 * 27638:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:49:58: maintask.py:65 * 27707:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:49:58: maintask.py:229 * 27707:140735138812672 init_task_context SUCC
+INFO: 01-05 17:49:58: maintask.py:235 * 27707:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:49:58: maintask.py:270 * 27707:140735138812672 task finish
+ERROR: 01-05 17:49:58: maintask.py:272 * 27707:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:52:48: maintask.py:65 * 27713:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:52:48: maintask.py:229 * 27713:140735138812672 init_task_context SUCC
+INFO: 01-05 17:52:48: maintask.py:235 * 27713:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:52:48: maintask.py:270 * 27713:140735138812672 task finish
+ERROR: 01-05 17:52:48: maintask.py:272 * 27713:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:53:12: maintask.py:65 * 27714:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:53:12: maintask.py:229 * 27714:140735138812672 init_task_context SUCC
+INFO: 01-05 17:53:12: maintask.py:235 * 27714:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:53:12: maintask.py:270 * 27714:140735138812672 task finish
+ERROR: 01-05 17:53:12: maintask.py:272 * 27714:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:53:25: maintask.py:65 * 27715:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:53:25: maintask.py:229 * 27715:140735138812672 init_task_context SUCC
+INFO: 01-05 17:53:25: maintask.py:235 * 27715:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:53:25: maintask.py:270 * 27715:140735138812672 task finish
+ERROR: 01-05 17:53:25: maintask.py:272 * 27715:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:54:28: maintask.py:65 * 27717:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:54:28: maintask.py:229 * 27717:140735138812672 init_task_context SUCC
+INFO: 01-05 17:54:28: maintask.py:235 * 27717:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:54:28: maintask.py:270 * 27717:140735138812672 task finish
+ERROR: 01-05 17:54:28: maintask.py:272 * 27717:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:56:14: maintask.py:65 * 27722:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:56:14: maintask.py:229 * 27722:140735138812672 init_task_context SUCC
+INFO: 01-05 17:56:14: maintask.py:235 * 27722:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:56:14: maintask.py:270 * 27722:140735138812672 task finish
+ERROR: 01-05 17:56:14: maintask.py:272 * 27722:140735138812672 Application terminate by exception: global name 'data' is not defined
+INFO: 01-05 17:58:14: maintask.py:65 * 27728:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:58:14: maintask.py:229 * 27728:140735138812672 init_task_context SUCC
+INFO: 01-05 17:58:14: maintask.py:235 * 27728:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:58:14: maintask.py:270 * 27728:140735138812672 task finish
+ERROR: 01-05 17:58:14: maintask.py:272 * 27728:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:58:49: maintask.py:65 * 27729:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:58:49: maintask.py:229 * 27729:140735138812672 init_task_context SUCC
+INFO: 01-05 17:58:49: maintask.py:235 * 27729:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:58:49: maintask.py:270 * 27729:140735138812672 task finish
+ERROR: 01-05 17:58:49: maintask.py:272 * 27729:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 17:59:40: maintask.py:65 * 27731:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 17:59:40: maintask.py:229 * 27731:140735138812672 init_task_context SUCC
+INFO: 01-05 17:59:40: maintask.py:235 * 27731:140735138812672 load_task_conf SUCC
+INFO: 01-05 17:59:40: maintask.py:270 * 27731:140735138812672 task finish
+ERROR: 01-05 17:59:40: maintask.py:272 * 27731:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 18:00:17: maintask.py:65 * 27733:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:00:17: maintask.py:229 * 27733:140735138812672 init_task_context SUCC
+INFO: 01-05 18:00:17: maintask.py:235 * 27733:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:00:17: maintask.py:270 * 27733:140735138812672 task finish
+ERROR: 01-05 18:00:17: maintask.py:272 * 27733:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 18:01:02: maintask.py:65 * 27734:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:01:02: maintask.py:229 * 27734:140735138812672 init_task_context SUCC
+INFO: 01-05 18:01:02: maintask.py:235 * 27734:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:01:02: maintask.py:270 * 27734:140735138812672 task finish
+ERROR: 01-05 18:01:02: maintask.py:272 * 27734:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 18:02:38: maintask.py:65 * 27741:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:02:38: maintask.py:229 * 27741:140735138812672 init_task_context SUCC
+INFO: 01-05 18:02:38: maintask.py:235 * 27741:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:02:38: maintask.py:270 * 27741:140735138812672 task finish
+ERROR: 01-05 18:02:38: maintask.py:272 * 27741:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 18:03:23: maintask.py:65 * 27743:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:03:23: maintask.py:229 * 27743:140735138812672 init_task_context SUCC
+INFO: 01-05 18:03:23: maintask.py:235 * 27743:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:03:23: maintask.py:270 * 27743:140735138812672 task finish
+ERROR: 01-05 18:03:23: maintask.py:272 * 27743:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 18:04:10: maintask.py:65 * 27744:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:04:10: maintask.py:229 * 27744:140735138812672 init_task_context SUCC
+INFO: 01-05 18:04:10: maintask.py:235 * 27744:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:04:10: maintask.py:270 * 27744:140735138812672 task finish
+ERROR: 01-05 18:04:10: maintask.py:272 * 27744:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 18:04:50: maintask.py:65 * 27746:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:04:50: maintask.py:229 * 27746:140735138812672 init_task_context SUCC
+INFO: 01-05 18:04:50: maintask.py:235 * 27746:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:04:50: maintask.py:270 * 27746:140735138812672 task finish
+ERROR: 01-05 18:04:50: maintask.py:272 * 27746:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 18:05:06: maintask.py:65 * 27747:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:05:06: maintask.py:229 * 27747:140735138812672 init_task_context SUCC
+INFO: 01-05 18:05:06: maintask.py:235 * 27747:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:05:06: maintask.py:270 * 27747:140735138812672 task finish
+ERROR: 01-05 18:05:06: maintask.py:272 * 27747:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+INFO: 01-05 18:07:01: maintask.py:65 * 27752:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:07:01: maintask.py:229 * 27752:140735138812672 init_task_context SUCC
+INFO: 01-05 18:07:01: maintask.py:235 * 27752:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:07:01: maintask.py:270 * 27752:140735138812672 task finish
+ERROR: 01-05 18:07:01: maintask.py:272 * 27752:140735138812672 Application terminate by exception: global name 'data' is not defined
+INFO: 01-05 18:07:24: maintask.py:65 * 27754:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:07:24: maintask.py:229 * 27754:140735138812672 init_task_context SUCC
+INFO: 01-05 18:07:24: maintask.py:235 * 27754:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:07:24: maintask.py:270 * 27754:140735138812672 task finish
+ERROR: 01-05 18:07:24: maintask.py:272 * 27754:140735138812672 Application terminate by exception: global name 'data' is not defined
+INFO: 01-05 18:07:49: maintask.py:65 * 27756:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:07:49: maintask.py:229 * 27756:140735138812672 init_task_context SUCC
+INFO: 01-05 18:07:49: maintask.py:235 * 27756:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:07:49: maintask.py:241 * 27756:140735138812672 load_input_flows SUCC
+INFO: 01-05 18:07:49: maintask.py:247 * 27756:140735138812672 get_dependency SUCC
+INFO: 01-05 18:07:49: maintask.py:270 * 27756:140735138812672 task finish
+INFO: 01-05 18:11:23: maintask.py:65 * 27762:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:11:23: maintask.py:228 * 27762:140735138812672 init_task_context SUCC
+INFO: 01-05 18:11:23: maintask.py:234 * 27762:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:11:23: maintask.py:240 * 27762:140735138812672 load_input_flows SUCC
+INFO: 01-05 18:11:23: maintask.py:246 * 27762:140735138812672 get_dependency SUCC
+INFO: 01-05 18:11:23: maintask.py:269 * 27762:140735138812672 task finish
+INFO: 01-05 18:13:50: maintask.py:65 * 27771:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:13:50: maintask.py:228 * 27771:140735138812672 init_task_context SUCC
+INFO: 01-05 18:13:50: maintask.py:234 * 27771:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:13:51: maintask.py:240 * 27771:140735138812672 load_input_flows SUCC
+INFO: 01-05 18:13:51: maintask.py:246 * 27771:140735138812672 get_dependency SUCC
+INFO: 01-05 18:13:51: maintask.py:269 * 27771:140735138812672 task finish
+INFO: 01-05 18:16:24: maintask.py:65 * 27777:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:16:24: maintask.py:228 * 27777:140735138812672 init_task_context SUCC
+INFO: 01-05 18:16:24: maintask.py:234 * 27777:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:16:24: maintask.py:240 * 27777:140735138812672 load_input_flows SUCC
+INFO: 01-05 18:16:24: maintask.py:246 * 27777:140735138812672 get_dependency SUCC
+INFO: 01-05 18:16:24: maintask.py:269 * 27777:140735138812672 task finish
+INFO: 01-05 18:18:11: maintask.py:65 * 27813:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:18:11: maintask.py:227 * 27813:140735138812672 init_task_context SUCC
+INFO: 01-05 18:18:11: maintask.py:233 * 27813:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:18:11: maintask.py:239 * 27813:140735138812672 load_input_flows SUCC
+INFO: 01-05 18:18:11: maintask.py:245 * 27813:140735138812672 get_dependency SUCC
+INFO: 01-05 18:18:11: maintask.py:268 * 27813:140735138812672 task finish
+INFO: 01-05 18:18:56: maintask.py:65 * 27815:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:18:56: maintask.py:227 * 27815:140735138812672 init_task_context SUCC
+INFO: 01-05 18:18:56: maintask.py:233 * 27815:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:18:56: maintask.py:239 * 27815:140735138812672 load_input_flows SUCC
+INFO: 01-05 18:18:56: maintask.py:245 * 27815:140735138812672 get_dependency SUCC
+INFO: 01-05 18:18:56: maintask.py:268 * 27815:140735138812672 task finish
+INFO: 01-05 18:21:08: maintask.py:65 * 27819:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:21:08: maintask.py:227 * 27819:140735138812672 init_task_context SUCC
+INFO: 01-05 18:21:08: maintask.py:233 * 27819:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:21:08: maintask.py:239 * 27819:140735138812672 load_input_flows SUCC
+INFO: 01-05 18:21:08: maintask.py:245 * 27819:140735138812672 get_dependency SUCC
+INFO: 01-05 18:21:08: maintask.py:268 * 27819:140735138812672 task finish
+INFO: 01-05 18:22:00: maintask.py:65 * 27823:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 18:22:00: maintask.py:227 * 27823:140735138812672 init_task_context SUCC
+INFO: 01-05 18:22:00: maintask.py:233 * 27823:140735138812672 load_task_conf SUCC
+INFO: 01-05 18:22:00: maintask.py:239 * 27823:140735138812672 load_input_flows SUCC
+INFO: 01-05 18:22:00: maintask.py:245 * 27823:140735138812672 get_dependency SUCC
+INFO: 01-05 18:22:00: maintask.py:268 * 27823:140735138812672 task finish
+INFO: 01-05 20:06:00: maintask.py:65 * 27984:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:06:00: maintask.py:239 * 27984:140735138812672 init_task_context SUCC
+INFO: 01-05 20:06:00: maintask.py:245 * 27984:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:06:00: maintask.py:280 * 27984:140735138812672 task finish
+ERROR: 01-05 20:06:00: maintask.py:282 * 27984:140735138812672 Application terminate by exception: global name 'process_list_info' is not defined
+INFO: 01-05 20:06:27: maintask.py:65 * 27987:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:06:27: maintask.py:239 * 27987:140735138812672 init_task_context SUCC
+INFO: 01-05 20:06:27: maintask.py:245 * 27987:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:06:27: maintask.py:280 * 27987:140735138812672 task finish
+ERROR: 01-05 20:06:27: maintask.py:282 * 27987:140735138812672 Application terminate by exception: get() takes at least 3 arguments (2 given)
+INFO: 01-05 20:07:17: maintask.py:65 * 27989:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:07:17: maintask.py:239 * 27989:140735138812672 init_task_context SUCC
+INFO: 01-05 20:07:17: maintask.py:245 * 27989:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:07:17: maintask.py:251 * 27989:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:07:17: maintask.py:257 * 27989:140735138812672 get_dependency SUCC
+INFO: 01-05 20:07:17: maintask.py:280 * 27989:140735138812672 task finish
+ERROR: 01-05 20:07:17: maintask.py:282 * 27989:140735138812672 Application terminate by exception: get_input_source() takes exactly 2 arguments (3 given)
+INFO: 01-05 20:08:06: maintask.py:65 * 27990:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:08:06: maintask.py:239 * 27990:140735138812672 init_task_context SUCC
+INFO: 01-05 20:08:06: maintask.py:245 * 27990:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:08:06: maintask.py:251 * 27990:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:08:06: maintask.py:257 * 27990:140735138812672 get_dependency SUCC
+INFO: 01-05 20:08:06: maintask.py:280 * 27990:140735138812672 task finish
+ERROR: 01-05 20:08:06: maintask.py:282 * 27990:140735138812672 Application terminate by exception: get_input_source() takes exactly 2 arguments (3 given)
+INFO: 01-05 20:09:37: maintask.py:65 * 27994:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:09:37: maintask.py:239 * 27994:140735138812672 init_task_context SUCC
+INFO: 01-05 20:09:37: maintask.py:245 * 27994:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:09:37: maintask.py:251 * 27994:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:09:37: maintask.py:257 * 27994:140735138812672 get_dependency SUCC
+INFO: 01-05 20:09:37: maintask.py:280 * 27994:140735138812672 task finish
+ERROR: 01-05 20:09:37: maintask.py:282 * 27994:140735138812672 Application terminate by exception: get_input_source() takes exactly 2 arguments (3 given)
+INFO: 01-05 20:09:57: maintask.py:65 * 27995:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:09:57: maintask.py:239 * 27995:140735138812672 init_task_context SUCC
+INFO: 01-05 20:09:57: maintask.py:245 * 27995:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:09:57: maintask.py:251 * 27995:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:09:57: maintask.py:257 * 27995:140735138812672 get_dependency SUCC
+INFO: 01-05 20:09:57: maintask.py:280 * 27995:140735138812672 task finish
+INFO: 01-05 20:14:11: maintask.py:65 * 28008:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:14:11: maintask.py:244 * 28008:140735138812672 init_task_context SUCC
+INFO: 01-05 20:14:11: maintask.py:250 * 28008:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:14:11: maintask.py:256 * 28008:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:14:11: maintask.py:262 * 28008:140735138812672 get_dependency SUCC
+INFO: 01-05 20:14:11: maintask.py:285 * 28008:140735138812672 task finish
+ERROR: 01-05 20:14:11: maintask.py:287 * 28008:140735138812672 Application terminate by exception: 'GlobalValueManage' object has no attribute 'get_section_dict'
+INFO: 01-05 20:16:15: maintask.py:65 * 28013:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:16:15: maintask.py:245 * 28013:140735138812672 init_task_context SUCC
+INFO: 01-05 20:16:15: maintask.py:251 * 28013:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:16:15: maintask.py:257 * 28013:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:16:15: maintask.py:263 * 28013:140735138812672 get_dependency SUCC
+INFO: 01-05 20:16:15: maintask.py:286 * 28013:140735138812672 task finish
+ERROR: 01-05 20:16:15: maintask.py:288 * 28013:140735138812672 Application terminate by exception: 'GlobalValueManage' object has no attribute 'get_section_dict'
+INFO: 01-05 20:18:02: maintask.py:65 * 28016:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:18:02: maintask.py:245 * 28016:140735138812672 init_task_context SUCC
+INFO: 01-05 20:18:02: maintask.py:251 * 28016:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:18:02: maintask.py:286 * 28016:140735138812672 task finish
+ERROR: 01-05 20:18:02: maintask.py:288 * 28016:140735138812672 Application terminate by exception: No section: 'test_2'
+INFO: 01-05 20:18:21: maintask.py:65 * 28018:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:18:21: maintask.py:245 * 28018:140735138812672 init_task_context SUCC
+INFO: 01-05 20:18:21: maintask.py:251 * 28018:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:18:21: maintask.py:257 * 28018:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:18:21: maintask.py:263 * 28018:140735138812672 get_dependency SUCC
+INFO: 01-05 20:18:21: maintask.py:286 * 28018:140735138812672 task finish
+ERROR: 01-05 20:18:21: maintask.py:288 * 28018:140735138812672 Application terminate by exception: 'GlobalValueManage' object has no attribute 'get_section_dict'
+INFO: 01-05 20:19:49: maintask.py:65 * 28023:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:19:49: maintask.py:245 * 28023:140735138812672 init_task_context SUCC
+INFO: 01-05 20:19:49: maintask.py:251 * 28023:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:19:49: maintask.py:257 * 28023:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:19:49: maintask.py:263 * 28023:140735138812672 get_dependency SUCC
+INFO: 01-05 20:19:49: TaskInstance.py:68 * 28023:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:19:49: TaskInstance.py:68 * 28023:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:19:49: maintask.py:286 * 28023:140735138812672 task finish
+INFO: 01-05 20:21:07: maintask.py:65 * 28027:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:21:07: maintask.py:245 * 28027:140735138812672 init_task_context SUCC
+INFO: 01-05 20:21:07: maintask.py:251 * 28027:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:21:07: maintask.py:257 * 28027:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:21:07: maintask.py:263 * 28027:140735138812672 get_dependency SUCC
+INFO: 01-05 20:21:07: TaskInstance.py:68 * 28027:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:21:07: TaskInstance.py:68 * 28027:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:21:07: maintask.py:286 * 28027:140735138812672 task finish
+INFO: 01-05 20:24:50: maintask.py:65 * 28037:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:24:50: maintask.py:245 * 28037:140735138812672 init_task_context SUCC
+INFO: 01-05 20:24:50: maintask.py:251 * 28037:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:24:50: maintask.py:257 * 28037:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:24:50: maintask.py:263 * 28037:140735138812672 get_dependency SUCC
+INFO: 01-05 20:24:50: TaskInstance.py:68 * 28037:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:24:50: TaskInstance.py:68 * 28037:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:24:50: maintask.py:286 * 28037:140735138812672 task finish
+INFO: 01-05 20:36:56: maintask.py:65 * 28070:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:36:56: maintask.py:245 * 28070:140735138812672 init_task_context SUCC
+INFO: 01-05 20:36:56: maintask.py:251 * 28070:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:36:56: maintask.py:257 * 28070:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:36:56: maintask.py:263 * 28070:140735138812672 get_dependency SUCC
+INFO: 01-05 20:36:56: TaskInstance.py:68 * 28070:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:36:56: TaskInstance.py:68 * 28070:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:36:56: maintask.py:286 * 28070:140735138812672 task finish
+ERROR: 01-05 20:36:56: maintask.py:288 * 28070:140735138812672 Application terminate by exception: process() takes exactly 1 argument (2 given)
+INFO: 01-05 20:37:28: maintask.py:65 * 28072:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:37:28: maintask.py:245 * 28072:140735138812672 init_task_context SUCC
+INFO: 01-05 20:37:28: maintask.py:251 * 28072:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:37:28: maintask.py:257 * 28072:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:37:28: maintask.py:263 * 28072:140735138812672 get_dependency SUCC
+INFO: 01-05 20:37:28: TaskInstance.py:68 * 28072:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:37:28: TaskInstance.py:68 * 28072:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:37:28: maintask.py:286 * 28072:140735138812672 task finish
+ERROR: 01-05 20:37:28: maintask.py:288 * 28072:140735138812672 Application terminate by exception: 'xxx' object has no attribute 'landed_data'
+INFO: 01-05 20:38:02: maintask.py:65 * 28073:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:38:02: maintask.py:245 * 28073:140735138812672 init_task_context SUCC
+INFO: 01-05 20:38:02: maintask.py:251 * 28073:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:38:02: maintask.py:257 * 28073:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:38:02: maintask.py:263 * 28073:140735138812672 get_dependency SUCC
+INFO: 01-05 20:38:02: TaskInstance.py:68 * 28073:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:38:02: TaskInstance.py:68 * 28073:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:38:02: maintask.py:286 * 28073:140735138812672 task finish
+ERROR: 01-05 20:38:02: maintask.py:288 * 28073:140735138812672 Application terminate by exception: data_landed() takes exactly 1 argument (2 given)
+INFO: 01-05 20:38:28: maintask.py:65 * 28077:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:38:28: maintask.py:245 * 28077:140735138812672 init_task_context SUCC
+INFO: 01-05 20:38:28: maintask.py:251 * 28077:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:38:28: maintask.py:257 * 28077:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:38:28: maintask.py:263 * 28077:140735138812672 get_dependency SUCC
+INFO: 01-05 20:38:28: TaskInstance.py:68 * 28077:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:38:28: TaskInstance.py:68 * 28077:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:38:28: maintask.py:286 * 28077:140735138812672 task finish
+INFO: 01-05 20:39:47: maintask.py:65 * 28079:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:39:47: maintask.py:245 * 28079:140735138812672 init_task_context SUCC
+INFO: 01-05 20:39:47: maintask.py:251 * 28079:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:39:47: maintask.py:257 * 28079:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:39:47: maintask.py:263 * 28079:140735138812672 get_dependency SUCC
+INFO: 01-05 20:39:47: TaskInstance.py:68 * 28079:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:39:47: TaskInstance.py:68 * 28079:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:39:47: maintask.py:286 * 28079:140735138812672 task finish
+INFO: 01-05 20:41:08: maintask.py:65 * 28081:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:41:08: maintask.py:245 * 28081:140735138812672 init_task_context SUCC
+INFO: 01-05 20:41:08: maintask.py:251 * 28081:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:41:08: maintask.py:257 * 28081:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:41:08: maintask.py:263 * 28081:140735138812672 get_dependency SUCC
+INFO: 01-05 20:41:08: TaskInstance.py:68 * 28081:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:41:08: TaskInstance.py:68 * 28081:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:41:08: maintask.py:286 * 28081:140735138812672 task finish
+INFO: 01-05 20:46:19: maintask.py:65 * 28095:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:46:19: maintask.py:245 * 28095:140735138812672 init_task_context SUCC
+INFO: 01-05 20:46:19: maintask.py:251 * 28095:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:46:19: maintask.py:257 * 28095:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:46:19: maintask.py:263 * 28095:140735138812672 get_dependency SUCC
+INFO: 01-05 20:46:19: TaskInstance.py:68 * 28095:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:46:19: TaskInstance.py:68 * 28095:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:46:19: maintask.py:286 * 28095:140735138812672 task finish
+INFO: 01-05 20:47:21: maintask.py:65 * 28098:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:47:21: maintask.py:245 * 28098:140735138812672 init_task_context SUCC
+INFO: 01-05 20:47:21: maintask.py:251 * 28098:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:47:21: maintask.py:257 * 28098:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:47:21: maintask.py:263 * 28098:140735138812672 get_dependency SUCC
+INFO: 01-05 20:47:22: TaskInstance.py:68 * 28098:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:47:22: TaskInstance.py:68 * 28098:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:47:22: maintask.py:286 * 28098:140735138812672 task finish
+INFO: 01-05 20:47:58: maintask.py:65 * 28100:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-05 20:47:58: maintask.py:245 * 28100:140735138812672 init_task_context SUCC
+INFO: 01-05 20:47:58: maintask.py:251 * 28100:140735138812672 load_task_conf SUCC
+INFO: 01-05 20:47:58: maintask.py:257 * 28100:140735138812672 load_input_flows SUCC
+INFO: 01-05 20:47:58: maintask.py:263 * 28100:140735138812672 get_dependency SUCC
+INFO: 01-05 20:47:58: TaskInstance.py:68 * 28100:140735138812672 input source input1 register SUCC
+INFO: 01-05 20:47:58: TaskInstance.py:68 * 28100:140735138812672 input source input2 register SUCC
+INFO: 01-05 20:47:58: maintask.py:286 * 28100:140735138812672 task finish

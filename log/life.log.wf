@@ -17,3 +17,58 @@ ERROR: 01-04 21:03:19: maintask.py:247 * 25993:140735138812672 Application termi
 ERROR: 01-04 21:04:54: maintask.py:247 * 26025:140735138812672 Application terminate by exception: 'xxx' object has no attribute 'init'
 ERROR: 01-04 21:05:18: maintask.py:247 * 26026:140735138812672 Application terminate by exception: init() takes no arguments (1 given)
 ERROR: 01-04 21:05:31: maintask.py:247 * 26027:140735138812672 Application terminate by exception: No section: 'test2'
+ERROR: 01-05 12:35:04: maintask.py:255 * 26704:140735138812672 Application terminate by exception: run_task() takes exactly 1 argument (2 given)
+ERROR: 01-05 16:36:04: maintask.py:265 * 27258:140735138812672 Application terminate by exception: No section: 'input1'
+ERROR: 01-05 16:38:39: maintask.py:265 * 27264:140735138812672 Application terminate by exception: 'list' object has no attribute 'get'
+ERROR: 01-05 16:43:51: maintask.py:265 * 27301:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+ERROR: 01-05 16:45:38: maintask.py:265 * 27304:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+ERROR: 01-05 16:46:29: maintask.py:265 * 27311:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+ERROR: 01-05 16:46:45: maintask.py:265 * 27313:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+ERROR: 01-05 16:47:14: maintask.py:265 * 27315:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+ERROR: 01-05 16:47:37: maintask.py:265 * 27316:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+ERROR: 01-05 16:48:00: maintask.py:265 * 27318:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+ERROR: 01-05 16:49:51: maintask.py:265 * 27321:140735138812672 Application terminate by exception: No module named io.IOMongoDBNormal
+ERROR: 01-05 16:50:48: maintask.py:265 * 27322:140735138812672 Application terminate by exception: No module named module.io.IOMongoDBNormal
+ERROR: 01-05 16:51:26: maintask.py:265 * 27356:140735138812672 Application terminate by exception: No module named module.io.IOMongoDBNormal
+ERROR: 01-05 16:51:39: maintask.py:265 * 27357:140735138812672 Application terminate by exception: 'db_uri'
+ERROR: 01-05 16:51:51: maintask.py:265 * 27358:140735138812672 Application terminate by exception: 'db_uri'
+ERROR: 01-05 16:53:24: maintask.py:265 * 27391:140735138812672 Application terminate by exception: 'db_uri'
+ERROR: 01-05 16:54:09: maintask.py:265 * 27392:140735138812672 Application terminate by exception: 'db_uri'
+ERROR: 01-05 17:27:38: maintask.py:270 * 27456:140735138812672 Application terminate by exception: 'db_uri'
+ERROR: 01-05 17:28:31: maintask.py:271 * 27459:140735138812672 Application terminate by exception: 'db_uri'
+ERROR: 01-05 17:28:57: maintask.py:272 * 27460:140735138812672 Application terminate by exception: 'db_uri'
+ERROR: 01-05 17:39:47: maintask.py:272 * 27627:140735138812672 Application terminate by exception: global name 'query' is not defined
+ERROR: 01-05 17:41:19: maintask.py:272 * 27632:140735138812672 Application terminate by exception: global name 'conn' is not defined
+ERROR: 01-05 17:42:51: maintask.py:272 * 27634:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:43:31: maintask.py:272 * 27637:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:43:52: maintask.py:272 * 27638:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:49:58: maintask.py:272 * 27707:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:52:48: maintask.py:272 * 27713:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:53:12: maintask.py:272 * 27714:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:53:25: maintask.py:272 * 27715:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:54:28: maintask.py:272 * 27717:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:56:14: maintask.py:272 * 27722:140735138812672 Application terminate by exception: global name 'data' is not defined
+ERROR: 01-05 17:58:14: maintask.py:272 * 27728:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:58:49: maintask.py:272 * 27729:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 17:59:40: maintask.py:272 * 27731:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 18:00:17: maintask.py:272 * 27733:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 18:01:02: maintask.py:272 * 27734:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 18:02:38: maintask.py:272 * 27741:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 18:03:23: maintask.py:272 * 27743:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 18:04:10: maintask.py:272 * 27744:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 18:04:50: maintask.py:272 * 27746:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 18:05:06: maintask.py:272 * 27747:140735138812672 Application terminate by exception: filter must be an instance of dict, bson.son.SON, or other type that inherits from collections.Mapping
+ERROR: 01-05 18:07:01: maintask.py:272 * 27752:140735138812672 Application terminate by exception: global name 'data' is not defined
+ERROR: 01-05 18:07:24: maintask.py:272 * 27754:140735138812672 Application terminate by exception: global name 'data' is not defined
+ERROR: 01-05 20:06:00: maintask.py:282 * 27984:140735138812672 Application terminate by exception: global name 'process_list_info' is not defined
+ERROR: 01-05 20:06:27: maintask.py:282 * 27987:140735138812672 Application terminate by exception: get() takes at least 3 arguments (2 given)
+ERROR: 01-05 20:07:17: maintask.py:282 * 27989:140735138812672 Application terminate by exception: get_input_source() takes exactly 2 arguments (3 given)
+ERROR: 01-05 20:08:06: maintask.py:282 * 27990:140735138812672 Application terminate by exception: get_input_source() takes exactly 2 arguments (3 given)
+ERROR: 01-05 20:09:37: maintask.py:282 * 27994:140735138812672 Application terminate by exception: get_input_source() takes exactly 2 arguments (3 given)
+ERROR: 01-05 20:14:11: maintask.py:287 * 28008:140735138812672 Application terminate by exception: 'GlobalValueManage' object has no attribute 'get_section_dict'
+ERROR: 01-05 20:16:15: maintask.py:288 * 28013:140735138812672 Application terminate by exception: 'GlobalValueManage' object has no attribute 'get_section_dict'
+ERROR: 01-05 20:18:02: maintask.py:288 * 28016:140735138812672 Application terminate by exception: No section: 'test_2'
+ERROR: 01-05 20:18:21: maintask.py:288 * 28018:140735138812672 Application terminate by exception: 'GlobalValueManage' object has no attribute 'get_section_dict'
+ERROR: 01-05 20:36:56: maintask.py:288 * 28070:140735138812672 Application terminate by exception: process() takes exactly 1 argument (2 given)
+ERROR: 01-05 20:37:28: maintask.py:288 * 28072:140735138812672 Application terminate by exception: 'xxx' object has no attribute 'landed_data'
+ERROR: 01-05 20:38:02: maintask.py:288 * 28073:140735138812672 Application terminate by exception: data_landed() takes exactly 1 argument (2 given)
