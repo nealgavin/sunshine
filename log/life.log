@@ -643,3 +643,103 @@ INFO: 01-05 20:47:58: maintask.py:263 * 28100:140735138812672 get_dependency SUC
 INFO: 01-05 20:47:58: TaskInstance.py:68 * 28100:140735138812672 input source input1 register SUCC
 INFO: 01-05 20:47:58: TaskInstance.py:68 * 28100:140735138812672 input source input2 register SUCC
 INFO: 01-05 20:47:58: maintask.py:286 * 28100:140735138812672 task finish
+INFO: 01-06 11:02:54: maintask.py:65 * 28564:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-06 11:02:54: maintask.py:245 * 28564:140735138812672 init_task_context SUCC
+INFO: 01-06 11:02:54: maintask.py:251 * 28564:140735138812672 load_task_conf SUCC
+INFO: 01-06 11:02:54: maintask.py:257 * 28564:140735138812672 load_input_flows SUCC
+INFO: 01-06 11:02:54: maintask.py:263 * 28564:140735138812672 get_dependency SUCC
+INFO: 01-06 11:02:54: maintask.py:286 * 28564:140735138812672 task finish
+ERROR: 01-06 11:02:54: maintask.py:288 * 28564:140735138812672 Application terminate by exception: name 'abstractmethod' is not defined
+INFO: 01-06 11:03:39: maintask.py:65 * 28566:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-06 11:03:39: maintask.py:245 * 28566:140735138812672 init_task_context SUCC
+INFO: 01-06 11:03:39: maintask.py:251 * 28566:140735138812672 load_task_conf SUCC
+INFO: 01-06 11:03:39: maintask.py:257 * 28566:140735138812672 load_input_flows SUCC
+INFO: 01-06 11:03:39: maintask.py:263 * 28566:140735138812672 get_dependency SUCC
+INFO: 01-06 11:03:39: TaskInstance.py:68 * 28566:140735138812672 input source input1 register SUCC
+INFO: 01-06 11:03:39: TaskInstance.py:68 * 28566:140735138812672 input source input2 register SUCC
+INFO: 01-06 11:03:39: maintask.py:286 * 28566:140735138812672 task finish
+INFO: 01-06 11:17:45: maintask.py:65 * 28639:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-06 11:17:45: maintask.py:245 * 28639:140735138812672 init_task_context SUCC
+INFO: 01-06 11:17:45: maintask.py:251 * 28639:140735138812672 load_task_conf SUCC
+INFO: 01-06 11:17:45: maintask.py:257 * 28639:140735138812672 load_input_flows SUCC
+INFO: 01-06 11:17:45: maintask.py:263 * 28639:140735138812672 get_dependency SUCC
+INFO: 01-06 11:17:45: TaskInstance.py:68 * 28639:140735138812672 input source input1 register SUCC
+INFO: 01-06 11:17:45: TaskInstance.py:68 * 28639:140735138812672 input source input2 register SUCC
+INFO: 01-06 11:17:45: maintask.py:286 * 28639:140735138812672 task finish
+INFO: 01-06 11:39:47: maintask.py:65 * 28686:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-06 11:39:47: maintask.py:245 * 28686:140735138812672 init_task_context SUCC
+INFO: 01-06 11:39:47: maintask.py:251 * 28686:140735138812672 load_task_conf SUCC
+INFO: 01-06 11:39:47: maintask.py:257 * 28686:140735138812672 load_input_flows SUCC
+INFO: 01-06 11:39:47: maintask.py:263 * 28686:140735138812672 get_dependency SUCC
+INFO: 01-06 11:39:48: TaskInstance.py:68 * 28686:140735138812672 input source input1 register SUCC
+INFO: 01-06 11:39:48: TaskInstance.py:68 * 28686:140735138812672 input source input2 register SUCC
+INFO: 01-06 11:39:48: maintask.py:286 * 28686:140735138812672 task finish
+INFO: 01-06 11:43:54: maintask.py:65 * 28738:140735138812672 Application start with conf conf/task/task_test.ini
+INFO: 01-06 11:43:54: maintask.py:245 * 28738:140735138812672 init_task_context SUCC
+INFO: 01-06 11:43:54: maintask.py:251 * 28738:140735138812672 load_task_conf SUCC
+INFO: 01-06 11:43:54: maintask.py:257 * 28738:140735138812672 load_input_flows SUCC
+INFO: 01-06 11:43:54: maintask.py:263 * 28738:140735138812672 get_dependency SUCC
+INFO: 01-06 11:43:54: TaskInstance.py:68 * 28738:140735138812672 input source input1 register SUCC
+INFO: 01-06 11:43:54: TaskInstance.py:68 * 28738:140735138812672 input source input2 register SUCC
+INFO: 01-06 11:43:54: maintask.py:286 * 28738:140735138812672 task finish
+[INFO][01-06 11:48:32][maintask.py][65] * [28775][140735138812672]: Application start with conf conf/task/task_test.ini
+[INFO][01-06 11:48:32][maintask.py][245] * [28775][140735138812672]: init_task_context SUCC
+[INFO][01-06 11:48:32][maintask.py][251] * [28775][140735138812672]: load_task_conf SUCC
+[INFO][01-06 11:48:32][maintask.py][257] * [28775][140735138812672]: load_input_flows SUCC
+[INFO][01-06 11:48:32][maintask.py][263] * [28775][140735138812672]: get_dependency SUCC
+[INFO][01-06 11:48:32][TaskInstance.py][68] * [28775][140735138812672]: input source input1 register SUCC
+[INFO][01-06 11:48:32][TaskInstance.py][68] * [28775][140735138812672]: input source input2 register SUCC
+[INFO][01-06 11:48:32][maintask.py][286] * [28775][140735138812672]: task finish
+[INFO][01-06 11:49:26][maintask.py:65] * [28801][140735138812672]: Application start with conf conf/task/task_test.ini
+[INFO][01-06 11:49:26][maintask.py:245] * [28801][140735138812672]: init_task_context SUCC
+[INFO][01-06 11:49:26][maintask.py:251] * [28801][140735138812672]: load_task_conf SUCC
+[INFO][01-06 11:49:26][maintask.py:257] * [28801][140735138812672]: load_input_flows SUCC
+[INFO][01-06 11:49:26][maintask.py:263] * [28801][140735138812672]: get_dependency SUCC
+[INFO][01-06 11:49:26][TaskInstance.py:68] * [28801][140735138812672]: input source input1 register SUCC
+[INFO][01-06 11:49:26][TaskInstance.py:68] * [28801][140735138812672]: input source input2 register SUCC
+[INFO][01-06 11:49:26][maintask.py:286] * [28801][140735138812672]: task finish
+[INFO][01-06 11:52:32][maintask.py:65] * [28832][140735138812672]: Application start with conf conf/task/task_test.ini
+[INFO][01-06 11:52:32][maintask.py:245] * [28832][140735138812672]: init_task_context SUCC
+[INFO][01-06 11:52:32][maintask.py:251] * [28832][140735138812672]: load_task_conf SUCC
+[INFO][01-06 11:52:32][maintask.py:257] * [28832][140735138812672]: load_input_flows SUCC
+[INFO][01-06 11:52:32][maintask.py:263] * [28832][140735138812672]: get_dependency SUCC
+[INFO][01-06 11:52:32][maintask.py:286] * [28832][140735138812672]: task finish
+[ERROR][01-06 11:52:32][maintask.py:288] * [28832][140735138812672]: Application terminate by exception: 'module' object has no attribute 'debug'
+[INFO][01-06 11:58:37][maintask.py:65] * [28871][140735138812672]: Application start with conf conf/task/task_test.ini
+[INFO][01-06 11:58:37][maintask.py:245] * [28871][140735138812672]: init_task_context SUCC
+[INFO][01-06 11:58:37][maintask.py:251] * [28871][140735138812672]: load_task_conf SUCC
+[INFO][01-06 11:58:37][maintask.py:257] * [28871][140735138812672]: load_input_flows SUCC
+[INFO][01-06 11:58:37][maintask.py:263] * [28871][140735138812672]: get_dependency SUCC
+[INFO][01-06 11:58:37][maintask.py:286] * [28871][140735138812672]: task finish
+[ERROR][01-06 11:58:37][maintask.py:288] * [28871][140735138812672]: Application terminate by exception: 'module' object has no attribute 'debug'
+[INFO][01-06 11:58:59][maintask.py:65] * [28872][140735138812672]: Application start with conf conf/task/task_test.ini
+[INFO][01-06 11:58:59][maintask.py:245] * [28872][140735138812672]: init_task_context SUCC
+[INFO][01-06 11:58:59][maintask.py:251] * [28872][140735138812672]: load_task_conf SUCC
+[INFO][01-06 11:58:59][maintask.py:257] * [28872][140735138812672]: load_input_flows SUCC
+[INFO][01-06 11:58:59][maintask.py:263] * [28872][140735138812672]: get_dependency SUCC
+[INFO][01-06 11:58:59][TaskInstance.py:68] * [28872][140735138812672]: input source input1 register SUCC
+[INFO][01-06 11:58:59][TaskInstance.py:68] * [28872][140735138812672]: input source input2 register SUCC
+[INFO][01-06 11:58:59][maintask.py:286] * [28872][140735138812672]: task finish
+[INFO][01-06 12:10:14][maintask.py:65] * [28991][140735138812672]: Application start with conf conf/task/task_test.ini
+[INFO][01-06 12:10:14][maintask.py:245] * [28991][140735138812672]: init_task_context SUCC
+[INFO][01-06 12:10:14][maintask.py:251] * [28991][140735138812672]: load_task_conf SUCC
+[INFO][01-06 12:10:14][maintask.py:257] * [28991][140735138812672]: load_input_flows SUCC
+[INFO][01-06 12:10:14][maintask.py:263] * [28991][140735138812672]: get_dependency SUCC
+[INFO][01-06 12:10:14][TaskInstance.py:68] * [28991][140735138812672]: input source input1 register SUCC
+[INFO][01-06 12:10:14][TaskInstance.py:68] * [28991][140735138812672]: input source input2 register SUCC
+[INFO][01-06 12:10:14][maintask.py:286] * [28991][140735138812672]: task finish
+[INFO][01-06 12:11:19][maintask.py:65] * [29040][140735138812672]: Application start with conf conf/task/task_test.ini
+[INFO][01-06 12:11:19][maintask.py:245] * [29040][140735138812672]: init_task_context SUCC
+[INFO][01-06 12:11:19][maintask.py:251] * [29040][140735138812672]: load_task_conf SUCC
+[INFO][01-06 12:11:19][maintask.py:257] * [29040][140735138812672]: load_input_flows SUCC
+[INFO][01-06 12:11:19][maintask.py:263] * [29040][140735138812672]: get_dependency SUCC
+[INFO][01-06 12:11:19][TaskInstance.py:68] * [29040][140735138812672]: input source input1 register SUCC
+[INFO][01-06 12:11:19][TaskInstance.py:68] * [29040][140735138812672]: input source input2 register SUCC
+[INFO][01-06 12:11:19][maintask.py:286] * [29040][140735138812672]: task finish
+[INFO][01-06 12:16:09][maintask.py:65] * [29134][140735138812672]: Application start with conf conf/task/task_test.ini
+[INFO][01-06 12:16:09][maintask.py:245] * [29134][140735138812672]: init_task_context SUCC
+[INFO][01-06 12:16:09][maintask.py:251] * [29134][140735138812672]: load_task_conf SUCC
+[INFO][01-06 12:16:09][maintask.py:257] * [29134][140735138812672]: load_input_flows SUCC
+[INFO][01-06 12:16:09][maintask.py:263] * [29134][140735138812672]: get_dependency SUCC
+[INFO][01-06 12:16:09][maintask.py:286] * [29134][140735138812672]: task finish
+[ERROR][01-06 12:16:09][maintask.py:288] * [29134][140735138812672]: Application terminate by exception: 'module' object has no attribute 'DEBUG'

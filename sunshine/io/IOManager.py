@@ -41,7 +41,6 @@ class IOManager(object):
                 module_path = class_name
             else:
                 module_path = ".".join(["module", class_name])
-            print module_path
             io_module = importlib.import_module(module_path)    
             class_name = class_name.split('.')[-1]
             io_class = getattr(io_module, class_name)

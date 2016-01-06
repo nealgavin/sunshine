@@ -7,14 +7,17 @@
 # Created Time: 2016/01/04 20:52:32
 # Saying: Fight for freedom ^-^ !
 #################################################################
-class xxx(object):
+
+import sunshine.module.BasicProcess as BasicProcess
+class xxx(BasicProcess.BasicProcess):
     """
 
     """
-    def __init__(self, task_info, conf, io_conf):
+    def __init__(self, task_info, conf, **kwargs):
         """
 
         """
+        super(xxx, self).__init__(task_info, conf)
         print "xxx create yes"
         print task_info
         pass
@@ -24,6 +27,7 @@ class xxx(object):
         init
         """
         print "init"
+
     
     def process(self, data):
         """

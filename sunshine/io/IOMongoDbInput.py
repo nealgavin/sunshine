@@ -34,7 +34,8 @@ class IOMongoDbInput(IODBInput.IODBInput):
         self.col_name = conf["col_name"]
         self.db_client = None
         self.query_text = conf["query"]
-        print "IOMongoDbInput:", self.db_uri, self.db_name, self.col_name
+        
+        #print "IOMongoDbInput:", self.db_uri, self.db_name, self.col_name
         self.process()
     
     def connect(self):
@@ -73,7 +74,6 @@ class IOMongoDbInput(IODBInput.IODBInput):
         conn = self.connect()
         query_text = self.build_query(self.query_text)
         data = self.query(conn, query_text)
-        print data
         return data
 
     def query(self, conn, query_text):
@@ -91,7 +91,6 @@ class IOMongoDbInput(IODBInput.IODBInput):
         else:
             res = conn.find(query_text)
             for res_item in res:
-                print res_item
                 data = self.formart_data(res_item)
                 if data:
                     out_data.append(data)

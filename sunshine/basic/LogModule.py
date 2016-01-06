@@ -32,7 +32,7 @@ class LoggingModule(object):
         self.critical = self.logger.critical
 
     def init_log(self, log_path, level=logging.INFO, when="D", backup=7,
-                 format="%(levelname)s: %(asctime)s: %(filename)s:%(lineno)d * %(process)d:%(thread)d %(message)s",
+                 format="[%(levelname)s][%(asctime)s][%(filename)s:%(lineno)d] * [%(process)d][%(thread)d]: %(message)s",
                  datefmt="%m-%d %H:%M:%S"):
         """
         init_log - initialize log module
@@ -83,6 +83,7 @@ class LoggingModule(object):
         handler.setLevel(logging.WARNING)
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
+
 
 if '__main__' == __name__:
     tt = LoggingModule()

@@ -72,3 +72,7 @@ ERROR: 01-05 20:18:21: maintask.py:288 * 28018:140735138812672 Application termi
 ERROR: 01-05 20:36:56: maintask.py:288 * 28070:140735138812672 Application terminate by exception: process() takes exactly 1 argument (2 given)
 ERROR: 01-05 20:37:28: maintask.py:288 * 28072:140735138812672 Application terminate by exception: 'xxx' object has no attribute 'landed_data'
 ERROR: 01-05 20:38:02: maintask.py:288 * 28073:140735138812672 Application terminate by exception: data_landed() takes exactly 1 argument (2 given)
+ERROR: 01-06 11:02:54: maintask.py:288 * 28564:140735138812672 Application terminate by exception: name 'abstractmethod' is not defined
+[ERROR][01-06 11:52:32][maintask.py:288] * [28832][140735138812672]: Application terminate by exception: 'module' object has no attribute 'debug'
+[ERROR][01-06 11:58:37][maintask.py:288] * [28871][140735138812672]: Application terminate by exception: 'module' object has no attribute 'debug'
+[ERROR][01-06 12:16:09][maintask.py:288] * [29134][140735138812672]: Application terminate by exception: 'module' object has no attribute 'DEBUG'
